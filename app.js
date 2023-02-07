@@ -1,12 +1,14 @@
 // 2. import your filter here
 import { grayscale } from './filters/grayscale.js';
 import { negative } from './filters/negative.js';
+import { brighter } from './filters/brighter.js';
 
 const app = {
   imageWidth: 640,
   imageHeight: 480,
   filters: {
     // 3. add your filter here
+    brighter,
     grayscale,
     negative,
   }
