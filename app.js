@@ -1,6 +1,10 @@
 // 2. import your filter here
 import { grayscale } from './filters/grayscale.js';
 import { negative } from './filters/negative.js';
+import { removeBlue } from './filters/removeBlue.js';
+import { decreaseLightness } from './filters/decreaseLightness.js';
+import { meanRemoval } from './filters/meanRemoval.js';
+import { rotateCCW } from './filters/rotateCCW.js';
 
 const app = {
   imageWidth: 640,
@@ -9,6 +13,10 @@ const app = {
     // 3. add your filter here
     grayscale,
     negative,
+    removeBlue,
+    decreaseLightness,
+    meanRemoval,
+    rotateCCW,
   }
 };
 
